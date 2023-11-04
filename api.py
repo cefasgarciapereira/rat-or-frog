@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, render_template, request
 from PIL import Image
 from joblib import load
+import os
 
 app = Flask(__name__)
 
